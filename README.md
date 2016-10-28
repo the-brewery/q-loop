@@ -34,5 +34,6 @@ q.loop(
 		return q.delay(100)
 		.then(() => i++);
 	}
-);
+)
+.done();
 ```
