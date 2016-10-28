@@ -1,6 +1,6 @@
 {
   "name": "q-loop",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Q extension that loops promises like you would normally do with a 'while'-loop",
   "main": "index.js",
   "directories": {
