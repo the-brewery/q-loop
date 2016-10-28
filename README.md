@@ -9,6 +9,7 @@ Install
 Basic usage
 -----------
 
+Docs
 ```javascript
 /**
  * Loops the func until the condition returns true.
@@ -19,6 +20,12 @@ Basic usage
  q.loop(condition, func) {
  	..
  }
+```
+
+Code
+```javascript
+const q = require('q');
+require('q-loop')(q);
 
 var i = 0;
 q.loop(
